@@ -3518,7 +3518,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "rustix 1.1.4",
- "thiserror 1.0.69",
+ "thiserror 2.0.20",
  "wayexpand-core",
  "wayland-client",
  "wayland-protocols",
@@ -3534,7 +3534,7 @@ dependencies = [
  "ashpd",
  "reis",
  "rustix 1.1.4",
- "thiserror 1.0.69",
+ "thiserror 2.0.20",
  "tokio",
  "wayexpand-core",
 ]
@@ -3545,7 +3545,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "rustix 1.1.4",
- "thiserror 1.0.69",
+ "thiserror 2.0.20",
  "wayexpand-core",
  "wayland-client",
  "wayland-protocols-misc",
@@ -3559,7 +3559,7 @@ dependencies = [
  "rustix 1.1.4",
  "serde",
  "serde_yaml",
- "thiserror 1.0.69",
+ "thiserror 2.0.20",
  "toml",
 ]
 
