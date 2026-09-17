@@ -1,0 +1,17 @@
+[package]
+name = "xkbcommon-rs-codegen"
+version = "0.1.1"
+authors = ["wysiwys"]
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/wysiwys/xkbcommon-rs"
+description = "codegen for the `xkbcommon-rs` crate. Not meant as a standalone crate"
+
+
+[dependencies]
+unicase = "=2.8.1"
+phf = { version = "=0.11.3", features = ["macros", "unicase"] }
+phf_codegen = "=0.11.3"
+regex = "1.10.3"
+convert_case = "0.6.0"
+#lalrpop = "0.20.0"
